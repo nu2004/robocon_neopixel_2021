@@ -141,7 +141,8 @@ void loop() {
       for(int i=450; i<LED_COUNT; i++) {
         pixels.setPixelColor(i, pixels.Color(128, 0, 0)); // blue
       }
-      /*pixels.setPixelColor(i, pixels.Color(128, 128, 128)); // white
+      /* 
+      pixels.setPixelColor(i, pixels.Color(128, 128, 128)); // white
       pixels.setPixelColor(i-1, pixels.Color(128, 128, 128)); // white
       pixels.setPixelColor(i-2, pixels.Color(128, 128, 128)); // white
       pixels.setPixelColor(i-3, pixels.Color(128, 128, 128)); // white
@@ -172,7 +173,8 @@ void loop() {
       pixels.setPixelColor(i-46, pixels.Color(128, 128, 128)); // white
       pixels.setPixelColor(i-47, pixels.Color(128, 128, 128)); // white
       pixels.setPixelColor(i-48, pixels.Color(128, 128, 128)); // white
-      pixels.setPixelColor(i-49, pixels.Color(128, 128, 128)); // white*/
+      pixels.setPixelColor(i-49, pixels.Color(128, 128, 128)); // white
+      */
       pixels.show();
    // }
   }
